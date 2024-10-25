@@ -16,7 +16,7 @@ public class ArrayProcess {
 
     static int[] elemanEkle(int[] array, int yeni){
             int [] yeniArray=new int[array.length+1];
-            for (int i=0 ; i<array.length;i++){
+            for(int i=0 ; i<array.length;i++){
                 yeniArray[i]=array[i];
             }
             yeniArray[array.length]=yeni;
@@ -28,7 +28,7 @@ public class ArrayProcess {
 
         int[] yeniArray = new int[dizi.length - 1];
 
-        for (int i = 0; i < yeniArray.length; i++) {
+        for(int i = 0; i < yeniArray.length; i++) {
             yeniArray[i] = dizi[i+1];
         }
         return yeniArray;
